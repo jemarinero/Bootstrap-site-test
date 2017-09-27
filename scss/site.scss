@@ -9,6 +9,7 @@ html{
 }
 .encabezado{
     background: rgba(0,0,0,0.6);
+    overflow: hidden;
 }
 .bg-dark{
     background-color: rgba(0,0,0,0.6) !important;;
@@ -26,7 +27,7 @@ html{
     font-size: 1.3rem;
     text-align: center;
     margin: 0.2rem 0;
-    
+
 }
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
     color: white;
@@ -36,7 +37,25 @@ html{
     color: rgba(255, 255, 255, 0.75);
     background: #f05f40;
 }
+.texto-bienvenido{
+  margin-top: 6rem;
+  color: #fff;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #f05f40;
+    border-color: #b93e24;
+    transition: all .5s ease;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #f17f66;
+    border-color: #b93e24;
+}
+.quienes-somos{
+    background: #f05f40;
+    color: #fff;
+}
 #menuPrincipal{
     clear: both;
 }
-
